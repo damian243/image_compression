@@ -6,6 +6,7 @@ I = rgb2gray(logo);
 subplot(2,3,1);
 imshow(I)
 
+% turn matrix into double
 I2 = im2double(I);
 [U,S,V] = svd(I2);
 
